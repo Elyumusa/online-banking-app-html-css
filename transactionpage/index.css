@@ -1,0 +1,243 @@
+.dashboard {
+  position: relative;
+  font-weight: 500;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.dashboard-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  position: absolute;
+  height: 7.89%;
+  width: 98.36%;
+  top: 6.81%;
+  right: 0;
+  bottom: 85.3%;
+  left: 1.64%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.portfolio-wrapper,
+.trading-market-wrapper {
+  position: absolute;
+  overflow: hidden;
+  padding: var(--padding-3xs);
+}
+.portfolio-wrapper {
+  height: 7.53%;
+  width: 98.36%;
+  top: 21.15%;
+  right: 0;
+  bottom: 71.33%;
+  left: 1.64%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.trading-market-wrapper {
+  top: 32.26%;
+  bottom: 60.22%;
+}
+.reporting-transaction-wrapper,
+.trading-market-wrapper,
+.wallet-transfer-pay-wrapper,
+.watchlist-wrapper {
+  height: 7.53%;
+  width: 98.36%;
+  right: 0;
+  left: 1.64%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.wallet-transfer-pay-wrapper {
+  position: absolute;
+  top: 46.06%;
+  bottom: 46.42%;
+  background-color: var(--color-whitesmoke);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: var(--padding-3xs) 15px;
+}
+.reporting-transaction-wrapper,
+.watchlist-wrapper {
+  padding: var(--padding-3xs);
+}
+.reporting-transaction-wrapper {
+  position: absolute;
+  top: 58.24%;
+  bottom: 34.23%;
+  overflow: hidden;
+}
+.watchlist-wrapper {
+  top: 68.1%;
+  bottom: 24.37%;
+}
+.frame-group,
+.settings-wrapper,
+.watchlist-wrapper {
+  position: absolute;
+  overflow: hidden;
+}
+.settings-wrapper {
+  height: 7.53%;
+  width: 98.36%;
+  top: 79.21%;
+  right: 0;
+  bottom: 13.26%;
+  left: 1.64%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.frame-group {
+  top: 235px;
+  left: 54px;
+  width: 244px;
+  height: 558px;
+}
+.revridge {
+  position: absolute;
+  top: 60px;
+  left: 77px;
+  font-weight: 500;
+}
+.frame-parent,
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frame-parent {
+  height: 100%;
+  width: 22.67%;
+  right: 77.33%;
+  bottom: 0;
+  overflow: hidden;
+}
+.group-child {
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  width: 352px;
+  height: 60px;
+}
+.page-title {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 354px;
+}
+.rectangle-container,
+.rectangle-group,
+.rectangle-parent {
+  position: absolute;
+  top: 747px;
+  left: 84px;
+  width: 354px;
+  height: 60px;
+  color: var(--color-white);
+}
+.rectangle-container,
+.rectangle-group {
+  top: 847px;
+  font-size: var(--font-size-mid);
+}
+.rectangle-container {
+  top: 747px;
+  left: 576px;
+}
+.wrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  width: 316px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-116xl) var(--padding-base)
+    var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.balance-withdrawable-parent,
+.cash-pending-in-parent,
+.cash-pending-out-parent,
+.fiat-balance-parent {
+  position: absolute;
+  top: 133px;
+  left: 84px;
+  width: 349px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.cash-pending-in-parent,
+.cash-pending-out-parent,
+.fiat-balance-parent {
+  top: 268px;
+}
+.cash-pending-in-parent,
+.cash-pending-out-parent {
+  top: 404px;
+}
+.cash-pending-out-parent {
+  top: 540px;
+}
+.frame-child {
+  position: absolute;
+  top: 31px;
+  left: 1024px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.group-parent {
+  position: absolute;
+  height: 100%;
+  width: 77.99%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 22.01%;
+  overflow: hidden;
+  text-align: center;
+  color: var(--color-gray-100);
+}
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-tomorrow);
+}

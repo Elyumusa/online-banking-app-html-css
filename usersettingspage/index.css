@@ -1,0 +1,139 @@
+.dashboard {
+  position: relative;
+  font-weight: 500;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.dashboard-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-wrapper,
+.portfolio-wrapper {
+  position: absolute;
+  height: 7.89%;
+  width: 98.36%;
+  top: 6.81%;
+  right: 0;
+  bottom: 85.3%;
+  left: 1.64%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.portfolio-wrapper {
+  height: 7.53%;
+  top: 21.15%;
+  bottom: 71.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.trading-market-wrapper {
+  top: 32.26%;
+  bottom: 60.22%;
+  padding: var(--padding-3xs);
+}
+.reporting-transaction-wrapper,
+.settings-wrapper,
+.trading-market-wrapper,
+.wallet-transfer-pay-wrapper,
+.watchlist-wrapper {
+  position: absolute;
+  height: 7.53%;
+  width: 98.36%;
+  right: 0;
+  left: 1.64%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.wallet-transfer-pay-wrapper {
+  top: 46.06%;
+  bottom: 46.42%;
+  padding: var(--padding-3xs) 15px;
+  cursor: pointer;
+}
+.reporting-transaction-wrapper,
+.settings-wrapper,
+.watchlist-wrapper {
+  top: 58.24%;
+  bottom: 34.23%;
+  padding: var(--padding-3xs);
+}
+.settings-wrapper,
+.watchlist-wrapper {
+  top: 68.1%;
+  bottom: 24.37%;
+}
+.settings-wrapper {
+  top: 79.21%;
+  bottom: 13.26%;
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.frame-container {
+  position: absolute;
+  top: 235px;
+  left: 54px;
+  width: 244px;
+  height: 558px;
+  overflow: hidden;
+}
+.revridge {
+  position: absolute;
+  top: 60px;
+  left: 77px;
+  font-weight: 500;
+}
+.frame-group {
+  position: absolute;
+  height: 100%;
+  width: 22.67%;
+  top: 0;
+  right: 77.33%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.user-settings {
+  position: absolute;
+  top: 3.52%;
+  left: 13.44%;
+  font-weight: 500;
+}
+.user-settings-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 76.46%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 23.54%;
+  overflow: hidden;
+  font-size: 22px;
+}
+.frame-parent {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-tomorrow);
+}

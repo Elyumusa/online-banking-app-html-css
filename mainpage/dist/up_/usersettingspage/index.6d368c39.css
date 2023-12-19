@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-tomorrow: Tomorrow;
+  --font-size-lg: 18px;
+  --color-black: #000;
+  --padding-3xs: 10px;
+}
+
+/*# sourceMappingURL=index.6d368c39.css.map */

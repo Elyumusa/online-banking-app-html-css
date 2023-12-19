@@ -1,0 +1,240 @@
+.dashboard {
+  font-weight: 500;
+  position: relative;
+}
+
+.dashboard-wrapper {
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.frame-wrapper {
+  cursor: pointer;
+  width: 98.36%;
+  height: 7.89%;
+  position: absolute;
+  inset: 6.81% 0 85.3% 1.64%;
+  overflow: hidden;
+}
+
+.portfolio-wrapper, .trading-market-wrapper {
+  padding: var(--padding-3xs);
+  position: absolute;
+  overflow: hidden;
+}
+
+.portfolio-wrapper {
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 98.36%;
+  height: 7.53%;
+  display: flex;
+  inset: 21.15% 0 71.33% 1.64%;
+}
+
+.trading-market-wrapper {
+  top: 32.26%;
+  bottom: 60.22%;
+}
+
+.reporting-transaction-wrapper, .trading-market-wrapper, .wallet-transfer-pay-wrapper, .watchlist-wrapper {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 98.36%;
+  height: 7.53%;
+  display: flex;
+  left: 1.64%;
+  right: 0;
+}
+
+.wallet-transfer-pay-wrapper {
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-3xs) 15px;
+  border: 1px solid #0003;
+  position: absolute;
+  top: 46.06%;
+  bottom: 46.42%;
+  overflow: hidden;
+}
+
+.reporting-transaction-wrapper, .watchlist-wrapper {
+  padding: var(--padding-3xs);
+}
+
+.reporting-transaction-wrapper {
+  position: absolute;
+  top: 58.24%;
+  bottom: 34.23%;
+  overflow: hidden;
+}
+
+.watchlist-wrapper {
+  top: 68.1%;
+  bottom: 24.37%;
+}
+
+.frame-group, .settings-wrapper, .watchlist-wrapper {
+  position: absolute;
+  overflow: hidden;
+}
+
+.settings-wrapper {
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 98.36%;
+  height: 7.53%;
+  display: flex;
+  inset: 79.21% 0 13.26% 1.64%;
+}
+
+.frame-group {
+  width: 244px;
+  height: 558px;
+  top: 235px;
+  left: 54px;
+}
+
+.revridge {
+  font-weight: 500;
+  position: absolute;
+  top: 60px;
+  left: 77px;
+}
+
+.frame-parent, .group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frame-parent {
+  width: 22.67%;
+  height: 100%;
+  bottom: 0;
+  right: 77.33%;
+  overflow: hidden;
+}
+
+.group-child {
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  width: 352px;
+  height: 60px;
+}
+
+.page-title {
+  width: 354px;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.rectangle-container, .rectangle-group, .rectangle-parent {
+  color: var(--color-white);
+  width: 354px;
+  height: 60px;
+  position: absolute;
+  top: 747px;
+  left: 84px;
+}
+
+.rectangle-container, .rectangle-group {
+  font-size: var(--font-size-mid);
+  top: 847px;
+}
+
+.rectangle-container {
+  top: 747px;
+  left: 576px;
+}
+
+.wrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-base) var(--padding-116xl) var(--padding-base) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 316px;
+  display: flex;
+}
+
+.balance-withdrawable-parent, .cash-pending-in-parent, .cash-pending-out-parent, .fiat-balance-parent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+  flex-direction: column;
+  width: 349px;
+  height: 108px;
+  display: flex;
+  position: absolute;
+  top: 133px;
+  left: 84px;
+}
+
+.cash-pending-in-parent, .cash-pending-out-parent, .fiat-balance-parent {
+  top: 268px;
+}
+
+.cash-pending-in-parent, .cash-pending-out-parent {
+  top: 404px;
+}
+
+.cash-pending-out-parent {
+  top: 540px;
+}
+
+.frame-child {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 31px;
+  left: 1024px;
+}
+
+.group-parent {
+  text-align: center;
+  color: var(--color-gray-100);
+  width: 77.99%;
+  height: 100%;
+  position: absolute;
+  inset: 0 0 0 22.01%;
+  overflow: hidden;
+}
+
+.desktop-2 {
+  background-color: var(--color-white);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-tomorrow);
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=index.ab729769.css.map */
